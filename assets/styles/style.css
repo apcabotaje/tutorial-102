@@ -1,0 +1,43 @@
+body, * {
+    padding:0px;
+    margin:0px;
+    overflow-x: hidden;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.feel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.nav {
+    display: flex;
+}
+.nav > li {
+    margin-right: 48px;
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        color: red;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .title {
+        color: blue;
+    }
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-2 > .col-1 > p {
+    color: #25282B;
+}
+
